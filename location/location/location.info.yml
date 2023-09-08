@@ -1,0 +1,5 @@
+name: Location Module
+type: module
+description: 'Custom Location'
+package: Custom
+core_version_requirement: ^8.8 || ^9 || ^10

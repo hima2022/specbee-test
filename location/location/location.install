@@ -1,0 +1,5 @@
+<?php
+
+function location_uninstall() {
+  \Drupal::configFactory()->getEditable('location.settings')->delete();
+}

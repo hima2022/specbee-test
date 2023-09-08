@@ -1,0 +1,20 @@
+uuid: 0f82b6e1-ae44-493b-bc68-d6ac0f621e32
+langcode: en
+status: true
+dependencies:
+  module:
+    - location
+  theme:
+    - olivero
+id: locationtime
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: location_time_Block
+settings:
+  id: location_time_Block
+  label: 'Location & Time'
+  label_display: '0'
+  provider: location
+visibility: {  }
